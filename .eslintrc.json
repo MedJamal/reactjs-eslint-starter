@@ -1,0 +1,57 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+        "prettier/prettier": "error",
+        // "prettier/prettier":                        [1],
+        "react/jsx-filename-extension":             [1, { "extensions": [".js", ".jsx"] }],
+        // Indent with 4 spaces
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4]
+        // "react/jsx-indent":                         [2, 4],
+        // "indent":                                   [2]
+        // "indent": ["error", 2],
+        // "react/jsx-indent-props":                   [2, 4]
+
+        // "react/jsx-one-expression-per-line":        [0],
+        // "react/prefer-stateless-function":          [1],
+        // "react/static-property-placement":          [1, "property assignment"],
+        // "react-hooks/rules-of-hooks":               "error",
+        // "react-hooks/exhaustive-deps":              "warn",
+        // "jsx-a11y/label-has-associated-control":    [ 2, { "labelComponents": ["label"] } ],
+        // "react/destructuring-assignment":           [0],
+        // "react/no-access-state-in-setstate":        [0],
+        // "react/state-in-constructor":               [0],
+        // enable additional rules
+        // "linebreak-style": ["error", "unix"],
+        // "quotes": ["error", "double"],
+        // "semi": ["error", "always"],
+        
+        // override default options for rules from base configurations
+        // "comma-dangle": ["error", "always"],
+        // "no-cond-assign": ["error", "always"],
+        
+        // // disable rules from base configurations
+        // "no-console": "off",
+    }
+}

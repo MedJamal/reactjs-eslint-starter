@@ -1,2 +1,2 @@
-# React JS starter project with eslint.
+# React JS starter project with eslint, airbnb & prettier.
 
